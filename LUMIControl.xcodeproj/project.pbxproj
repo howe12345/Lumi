@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849979AE21932E5100659A4C /* ControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849979AD21932E5100659A4C /* ControlViewController.swift */; };
+		84AA0BF32191EBD80004B275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA0BF22191EBD80004B275 /* AppDelegate.swift */; };
+		84AA0BF52191EBD80004B275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA0BF42191EBD80004B275 /* ViewController.swift */; };
+		84AA0BF82191EBD80004B275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AA0BF62191EBD80004B275 /* Main.storyboard */; };
+		84AA0BFA2191EBD90004B275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AA0BF92191EBD90004B275 /* Assets.xcassets */; };
+		84AA0BFD2191EBD90004B275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AA0BFB2191EBD90004B275 /* LaunchScreen.storyboard */; };
+		84AA0C082191EBD90004B275 /* LUMIControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA0C072191EBD90004B275 /* LUMIControlTests.swift */; };
+		84AA0C132191EBD90004B275 /* LUMIControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA0C122191EBD90004B275 /* LUMIControlUITests.swift */; };
+		84B87C6021948DA50008ED00 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B87C5F21948DA50008ED00 /* PageContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AA0C042191EBD90004B275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AA0BE72191EBD80004B275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AA0BEE2191EBD80004B275;
+			remoteInfo = LUMIControl;
+		};
+		84AA0C0F2191EBD90004B275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AA0BE72191EBD80004B275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AA0BEE2191EBD80004B275;
+			remoteInfo = LUMIControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849979AD21932E5100659A4C /* ControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlViewController.swift; sourceTree = "<group>"; };
+		84AA0BEF2191EBD80004B275 /* LUMIControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUMIControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA0BF22191EBD80004B275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AA0BF42191EBD80004B275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84AA0BF72191EBD80004B275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AA0BF92191EBD90004B275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AA0BFC2191EBD90004B275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AA0BFE2191EBD90004B275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AA0C032191EBD90004B275 /* LUMIControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUMIControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA0C072191EBD90004B275 /* LUMIControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUMIControlTests.swift; sourceTree = "<group>"; };
+		84AA0C092191EBD90004B275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AA0C0E2191EBD90004B275 /* LUMIControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LUMIControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AA0C122191EBD90004B275 /* LUMIControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUMIControlUITests.swift; sourceTree = "<group>"; };
+		84AA0C142191EBD90004B275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B87C5F21948DA50008ED00 /* PageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AA0BEC2191EBD80004B275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA0C002191EBD90004B275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA0C0B2191EBD90004B275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AA0BE62191EBD80004B275 = {
+			isa = PBXGroup;
+			children = (
+				84AA0BF12191EBD80004B275 /* LUMIControl */,
+				84AA0C062191EBD90004B275 /* LUMIControlTests */,
+				84AA0C112191EBD90004B275 /* LUMIControlUITests */,
+				84AA0BF02191EBD80004B275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AA0BF02191EBD80004B275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AA0BEF2191EBD80004B275 /* LUMIControl.app */,
+				84AA0C032191EBD90004B275 /* LUMIControlTests.xctest */,
+				84AA0C0E2191EBD90004B275 /* LUMIControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AA0BF12191EBD80004B275 /* LUMIControl */ = {
+			isa = PBXGroup;
+			children = (
+				84AA0C262191F08A0004B275 /* View */,
+				84AA0C232191F03C0004B275 /* Class */,
+				84AA0C212191F03C0004B275 /* Control */,
+				84AA0C252191F03D0004B275 /* Main */,
+				84AA0C242191F03C0004B275 /* Profile */,
+				84AA0C202191F03C0004B275 /* Settings */,
+				84AA0C222191F03C0004B275 /* Tools */,
+				84AA0BF22191EBD80004B275 /* AppDelegate.swift */,
+				84AA0BFE2191EBD90004B275 /* Info.plist */,
+			);
+			path = LUMIControl;
+			sourceTree = "<group>";
+		};
+		84AA0C062191EBD90004B275 /* LUMIControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AA0C072191EBD90004B275 /* LUMIControlTests.swift */,
+				84AA0C092191EBD90004B275 /* Info.plist */,
+			);
+			path = LUMIControlTests;
+			sourceTree = "<group>";
+		};
+		84AA0C112191EBD90004B275 /* LUMIControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84AA0C122191EBD90004B275 /* LUMIControlUITests.swift */,
+				84AA0C142191EBD90004B275 /* Info.plist */,
+			);
+			path = LUMIControlUITests;
+			sourceTree = "<group>";
+		};
+		84AA0C202191F03C0004B275 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		84AA0C212191F03C0004B275 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				849979AD21932E5100659A4C /* ControlViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		84AA0C222191F03C0004B275 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		84AA0C232191F03C0004B275 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		84AA0C242191F03C0004B275 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		84AA0C252191F03D0004B275 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				84AA0BF62191EBD80004B275 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		84AA0C262191F08A0004B275 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84AA0BF92191EBD90004B275 /* Assets.xcassets */,
+				84AA0BF42191EBD80004B275 /* ViewController.swift */,
+				84AA0BFB2191EBD90004B275 /* LaunchScreen.storyboard */,
+				84B87C5F21948DA50008ED00 /* PageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AA0BEE2191EBD80004B275 /* LUMIControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA0C172191EBD90004B275 /* Build configuration list for PBXNativeTarget "LUMIControl" */;
+			buildPhases = (
+				84AA0BEB2191EBD80004B275 /* Sources */,
+				84AA0BEC2191EBD80004B275 /* Frameworks */,
+				84AA0BED2191EBD80004B275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LUMIControl;
+			productName = LUMIControl;
+			productReference = 84AA0BEF2191EBD80004B275 /* LUMIControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AA0C022191EBD90004B275 /* LUMIControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA0C1A2191EBD90004B275 /* Build configuration list for PBXNativeTarget "LUMIControlTests" */;
+			buildPhases = (
+				84AA0BFF2191EBD90004B275 /* Sources */,
+				84AA0C002191EBD90004B275 /* Frameworks */,
+				84AA0C012191EBD90004B275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AA0C052191EBD90004B275 /* PBXTargetDependency */,
+			);
+			name = LUMIControlTests;
+			productName = LUMIControlTests;
+			productReference = 84AA0C032191EBD90004B275 /* LUMIControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84AA0C0D2191EBD90004B275 /* LUMIControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AA0C1D2191EBD90004B275 /* Build configuration list for PBXNativeTarget "LUMIControlUITests" */;
+			buildPhases = (
+				84AA0C0A2191EBD90004B275 /* Sources */,
+				84AA0C0B2191EBD90004B275 /* Frameworks */,
+				84AA0C0C2191EBD90004B275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AA0C102191EBD90004B275 /* PBXTargetDependency */,
+			);
+			name = LUMIControlUITests;
+			productName = LUMIControlUITests;
+			productReference = 84AA0C0E2191EBD90004B275 /* LUMIControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AA0BE72191EBD80004B275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = huhaozhan;
+				TargetAttributes = {
+					84AA0BEE2191EBD80004B275 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84AA0C022191EBD90004B275 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84AA0BEE2191EBD80004B275;
+					};
+					84AA0C0D2191EBD90004B275 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84AA0BEE2191EBD80004B275;
+					};
+				};
+			};
+			buildConfigurationList = 84AA0BEA2191EBD80004B275 /* Build configuration list for PBXProject "LUMIControl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AA0BE62191EBD80004B275;
+			productRefGroup = 84AA0BF02191EBD80004B275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AA0BEE2191EBD80004B275 /* LUMIControl */,
+				84AA0C022191EBD90004B275 /* LUMIControlTests */,
+				84AA0C0D2191EBD90004B275 /* LUMIControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AA0BED2191EBD80004B275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA0BFD2191EBD90004B275 /* LaunchScreen.storyboard in Resources */,
+				84AA0BFA2191EBD90004B275 /* Assets.xcassets in Resources */,
+				84AA0BF82191EBD80004B275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA0C012191EBD90004B275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA0C0C2191EBD90004B275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AA0BEB2191EBD80004B275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA0BF52191EBD80004B275 /* ViewController.swift in Sources */,
+				849979AE21932E5100659A4C /* ControlViewController.swift in Sources */,
+				84AA0BF32191EBD80004B275 /* AppDelegate.swift in Sources */,
+				84B87C6021948DA50008ED00 /* PageContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA0BFF2191EBD90004B275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA0C082191EBD90004B275 /* LUMIControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AA0C0A2191EBD90004B275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AA0C132191EBD90004B275 /* LUMIControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AA0C052191EBD90004B275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AA0BEE2191EBD80004B275 /* LUMIControl */;
+			targetProxy = 84AA0C042191EBD90004B275 /* PBXContainerItemProxy */;
+		};
+		84AA0C102191EBD90004B275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AA0BEE2191EBD80004B275 /* LUMIControl */;
+			targetProxy = 84AA0C0F2191EBD90004B275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AA0BF62191EBD80004B275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA0BF72191EBD80004B275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AA0BFB2191EBD90004B275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AA0BFC2191EBD90004B275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AA0C152191EBD90004B275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84AA0C162191EBD90004B275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AA0C182191EBD90004B275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92QV9F468G;
+				INFOPLIST_FILE = LUMIControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhaozhan.LUMIControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84AA0C192191EBD90004B275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92QV9F468G;
+				INFOPLIST_FILE = LUMIControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhaozhan.LUMIControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84AA0C1B2191EBD90004B275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92QV9F468G;
+				INFOPLIST_FILE = LUMIControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhaozhan.LUMIControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LUMIControl.app/LUMIControl";
+			};
+			name = Debug;
+		};
+		84AA0C1C2191EBD90004B275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92QV9F468G;
+				INFOPLIST_FILE = LUMIControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhaozhan.LUMIControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LUMIControl.app/LUMIControl";
+			};
+			name = Release;
+		};
+		84AA0C1E2191EBD90004B275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92QV9F468G;
+				INFOPLIST_FILE = LUMIControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhaozhan.LUMIControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LUMIControl;
+			};
+			name = Debug;
+		};
+		84AA0C1F2191EBD90004B275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92QV9F468G;
+				INFOPLIST_FILE = LUMIControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhaozhan.LUMIControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LUMIControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AA0BEA2191EBD80004B275 /* Build configuration list for PBXProject "LUMIControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA0C152191EBD90004B275 /* Debug */,
+				84AA0C162191EBD90004B275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AA0C172191EBD90004B275 /* Build configuration list for PBXNativeTarget "LUMIControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA0C182191EBD90004B275 /* Debug */,
+				84AA0C192191EBD90004B275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AA0C1A2191EBD90004B275 /* Build configuration list for PBXNativeTarget "LUMIControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA0C1B2191EBD90004B275 /* Debug */,
+				84AA0C1C2191EBD90004B275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AA0C1D2191EBD90004B275 /* Build configuration list for PBXNativeTarget "LUMIControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AA0C1E2191EBD90004B275 /* Debug */,
+				84AA0C1F2191EBD90004B275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AA0BE72191EBD80004B275 /* Project object */;
+}
